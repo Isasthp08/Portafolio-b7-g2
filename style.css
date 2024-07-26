@@ -4,3 +4,17 @@ body{
 #nav{
     background-color: rgb(86, 60, 125) !important;
 }
+/*Presentacion*/
+#chica-pc{
+    width: 230px;
+    height: auto;
+}
+#Presentacion{
+    height: 88vh;
+  
+}
+#yo{
+    font-size: 25px;
+    font-family:inherit;
+}
+/*Habilidades*/
