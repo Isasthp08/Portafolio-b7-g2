@@ -1,3 +1,6 @@
 body{
     background-color: rgb(214, 183, 228);
 }
+#nav{
+    background-color: rgb(86, 60, 125) !important;
+}
