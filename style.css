@@ -18,3 +18,26 @@ body{
     font-family:inherit;
 }
 /*Habilidades*/
+
+/*Proyectos*/
+.proyecto{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-1{
+    background-image: url(assets/Clongoogle.png);
+}
+#proyecto-2{
+    background-image: url(assets/hpnews.png);
+}
+#proyecto-3{
+    background-image: url(assets/cimat.jpg);
+}
+.text-shadow-1{
+    text-shadow: -4px 5px 6px rgba(0, 0, 0, 25);
+}
+.text-brand{
+    color: cornflowerblue;
+}
