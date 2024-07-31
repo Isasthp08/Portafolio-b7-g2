@@ -1,43 +1,55 @@
-body{
+body {
     background-color: rgb(214, 183, 228);
 }
-#nav{
+
+#nav {
     background-color: rgb(86, 60, 125) !important;
 }
+
 /*Presentacion*/
-#chica-pc{
+#chica-pc {
     width: 230px;
     height: auto;
 }
-#Presentacion{
+
+#Presentacion {
     height: 88vh;
-  
+
 }
-#yo{
+
+#yo {
     font-size: 25px;
-    font-family:inherit;
+    font-family: inherit;
 }
+
 /*Habilidades*/
 
 /*Proyectos*/
-.proyecto{
+.proyecto {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
-#proyecto-1{
+#proyecto-1 {
     background-image: url(assets/Clongoogle.png);
 }
-#proyecto-2{
+
+#proyecto-2 {
     background-image: url(assets/hpnews.png);
 }
-#proyecto-3{
+
+#proyecto-3 {
     background-image: url(assets/cimat.jpg);
 }
-.text-shadow-1{
+
+.text-shadow-1 {
     text-shadow: -4px 5px 6px rgba(0, 0, 0, 25);
 }
-.text-brand{
+
+.text-brand {
     color: cornflowerblue;
 }
+
+/*Testimonios*/
+
