@@ -17,9 +17,9 @@
 <body>
 
     <header>
-        <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <nav id="nav" class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Isabella</a>
+                <a class="navbar-brand" href="#Presentacion">Isabella</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -28,16 +28,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Habilidades</a>
+                            <a class="nav-link active" aria-current="page" href="#Habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Proyectos</a>
+                            <a class="nav-link active" href="#Proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Testimonios</a>
+                            <a class="nav-link active" href="#Testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contacto</a>
+                            <a class="nav-link active" href="#Contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -46,7 +46,7 @@
     </header>
 
 
-    <main>
+    <main class="pb-5 mb-5">
 
         <section id="Presentacion" class="px-4 pt-5 my-5 text-center border-bottom">
             <h1 class="display-4 fw-bold text-body-emphasis">Isabella González</h1>
@@ -225,16 +225,41 @@
     </main>
 
 
-    <footer id="Contacto" class="container">
-        <div class="py-3 my-4">
+    <footer id="Contacto" class="container-fluid bg-black" data-bs-theme="dark">
+        <div class="py-3">
+            <div class="text-center text-white">
+                <i class="bi bi-code-slash fs-1">
+                </i>
+                <h4>Siempre parece imposible… hasta que se hace</h4>
+            </div>
+            
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/isa_glezeli/" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-instagram fs-2"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://www.tiktok.com/@isabellaglez_26" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-tiktok fs-2"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://github.com/Isasthp08" target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-github fs-2"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="..." target="_blank" class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-linkedin fs-2"></i>
+                    </a>
+                </li>
+
             </ul>
-            <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+            <p class="text-center text-body-secondary">© 2024 Isabella, Technolochicas PRO</p>
         </div>
     </footer>
 
