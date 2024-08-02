@@ -6,6 +6,13 @@ body {
     background-color: rgb(86, 60, 125) !important;
 }
 
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 /*Presentacion*/
 #chica-pc {
     width: 230px;
@@ -54,6 +61,6 @@ body {
 /*Testimonios*/
 
 
-#Contacto{
+#Contacto {
     background-color: rgb(86, 60, 125) !important;
 }
